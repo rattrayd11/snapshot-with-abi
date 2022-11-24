@@ -16,7 +16,7 @@ Get a JSON with the owners and the quantity of each owned item for any ERC721 or
 - Replace `ethereum` on thirdweb SDK initialization with the Chain you're using. (Example: `"polygon"`, `"avalanche"`, `"fantom"` )
 - Replace the `erc` const with either `erc1155` or `erc721`, depending on your needs.
 - Replace contractAddress, network and tokenId (in case of erc1155) with the contract address to take a snapshot of.
-- Replace ABI with your ABI - delete the current contract, copy as raw text from your bloc explorer/source code, and paste.
+- Replace `myABI.json` with your contract ABI - delete the current contract, copy as raw text from your bloc explorer/source code, and paste.
 - Run with `npx ts-node index.ts`
 
 
